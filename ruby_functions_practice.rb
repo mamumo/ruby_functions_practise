@@ -54,5 +54,13 @@ def number_to_short_month_name(y)
   end
 end
 
+def volume_of_cube(number)
+  return number ** 3
+end
+
+def volume_of_sphere(x,y,radius)
+  return 4/3.to_r * Math::PI * radius ** 3
+end
+
 
   
